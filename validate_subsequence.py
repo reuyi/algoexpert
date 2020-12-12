@@ -1,8 +1,8 @@
 def is_valid_subsequence(array, sequence):
-  arrayIndex = 0
-  sequenceIndex = 0
-  while arrayIndex < len(array) and sequenceIndex < len(sequence):
-    if array[arrIndex] == sequence[sequenceIndex]:
-      sequenceIndex += 1
-    arrayIndex +=1
-  return sequenceIndex == len(sequence)
+  array_index = 0
+  sequence_index = 0
+  while array_index < len(array) and sequence_index < len(sequence):
+    if array[array_index] == sequence[sequence_index]:
+      sequence_index += 1
+    array_index +=1
+  return sequence_index == len(sequence)
