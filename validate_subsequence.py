@@ -1,4 +1,4 @@
-def isValidSubsequence(array, sequence):
+def is_valid_subsequence(array, sequence):
   arrayIndex = 0
   sequenceIndex = 0
   while arrayIndex < len(array) and sequenceIndex < len(sequence):
